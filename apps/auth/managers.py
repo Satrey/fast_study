@@ -4,7 +4,7 @@ from sqlalchemy.exc import IntegrityError
 
 from core.core_dep.db_dep import DBDependency
 from database.models import User
-from schemas import CreateUser, UserReturnData
+from apps.auth.schemas import CreateUser, UserReturnData
 
 
 class UserManager:
